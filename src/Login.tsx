@@ -24,7 +24,8 @@ const Signup:React.FC<Props> = ({}) => {
       })
     */
     if (email == "aaa" && password == "bbb") {
-      props.history.push("/create-room/")
+      //props.history.push("/create-room/")
+      alert("OK")
     } else {
       alert("NG")
     }
